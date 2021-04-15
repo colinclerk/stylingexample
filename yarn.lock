@@ -39,6 +39,11 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@clerk/clerk-react@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@clerk/clerk-react/-/clerk-react-1.6.0.tgz#bce5e1704294f85798700e594a82df60f4e3c7ab"
+  integrity sha512-rUbWPCv97BIJ1LFwoAXD+2wBpe6aeHFNXYo2vNnEHhJ+EQIsLj9p9MeGR8LzpyP9Zf7BBSaC/MuAJ+uHxMR8uQ==
+
 "@hapi/accept@5.0.1":
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/@hapi/accept/-/accept-5.0.1.tgz#068553e867f0f63225a506ed74e899441af53e10"

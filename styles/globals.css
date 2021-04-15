@@ -14,3 +14,35 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.sign-in,
+.sign-up {
+  background-image: url("../public/blob.svg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 700px;
+  min-height: 600px;
+  padding-top: 2rem;
+}
+
+.sign-in h2,
+.sign-up h2 {
+  text-align: center;
+}
+
+.sign-in .cl-component.cl-sign-in,
+.sign-up .cl-component.cl-sign-up {
+  background-color: transparent;
+  box-shadow: none;
+  padding-top: 1rem;
+}
+
+.sign-in .cl-component .cl-auth-form-header,
+.sign-up .cl-component .cl-auth-form-header {
+  display: none;
+}
+
+.sign-in .cl-component .cl-primary-button-large,
+.sign-up .cl-component .cl-primary-button-large {
+  border-radius: ;
+}
