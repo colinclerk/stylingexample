@@ -25,6 +25,14 @@ a {
   padding-top: 2rem;
 }
 
+.sign-in.verify-email-address,
+.sign-up.verify-email-address {
+  background-image: none;
+  background: transparent;
+  min-height: 600px;
+  padding-top: 2rem;
+}
+
 .sign-in h2,
 .sign-up h2 {
   text-align: center;

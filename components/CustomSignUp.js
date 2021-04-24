@@ -56,14 +56,11 @@ const Start = ({ attempt, setStep }) => {
     // Go to clerk's component to handle the SSO callback
     // This will trigger a SignIn if the user has already
     // signed up.
-    const redirectUrl = new URL("/sign-up/sso-callback", window.location.href);
+    const redirectUrl = new URL("/sign-up#/sso-callback", window.location.href);
 
     // If oauth results in a completed sign up, skip the
     // redirectUrl above and go straight here.
-    const signUpCompleteRedirectUrl = new URL(
-      "/sign-up/sso-callback",
-      window.location.href
-    );
+    const signUpCompleteRedirectUrl = new URL("/", window.location.href);
 
     const response = await attempt.create({
       external_account_strategy: provider,
